@@ -105,3 +105,68 @@
    color: #FFFFFF;
    background-color: rgba(255, 255, 255, 0);
 }
+/* bannar section end */
+
+/* Notes section start */
+#notes{
+    /* max-width: 1360px;
+    height: 300px; */
+}
+.notes-container{
+    text-align: center;
+    padding-top: 30px;
+}
+.notes-headlin{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+}
+.notes-desctiption{
+    font-size: 16px;
+    font-weight: 300;
+    color: #627382;
+    margin-bottom: 44px;
+}
+.notes-info{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+    gap: 30px;
+    width: 1360px;
+    margin: 50px auto;
+
+}
+.info-card{
+  background: #ffffff;
+  padding: 30px 20px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+
+}
+.info-card img{
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 20px;
+  padding: 10px;
+  border-radius: 50%;
+  background: #ff5c5c;
+  color: white;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.notes-heading{
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 16px;
+}
+.notes-desctiption{
+    font-size: 16px;
+    font-weight: 200;
+    color: #627382;
+    text-align: center;
+}
