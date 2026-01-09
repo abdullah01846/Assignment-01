@@ -111,6 +111,22 @@
    color: #FFFFFF;
    background-color: rgba(255, 255, 255, 0);
 }
+
+/* hover Btn style */
+.btn1:hover{
+    background-color: #047734;
+}
+.btn2:hover{
+    background-color: #fffcfc28;
+}
+.access-btn:hover{
+    background-color: #047734;
+    color: #001931;
+    border: 1px solid white;
+}
+.think-btn:hover{
+    background-color: #047734;
+}
 /* bannar section end */
 
 /* Notes section start */
