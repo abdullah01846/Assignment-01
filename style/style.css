@@ -3,6 +3,12 @@
     margin: 0;
 }
 
+/* google font */
+.iner-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+
+}
 /* nabber Style start */
 #nabber{
     display: flex;
@@ -170,3 +176,123 @@
     color: #627382;
     text-align: center;
 }
+/* Notes section end */
+
+/* brain section start */
+#brain{
+    display: flex; 
+    gap: 60px;
+    width: 1360px;
+    height: 600px;
+    margin: 120px auto;
+}
+.brain-info{
+    /* padding-right: 240px; */
+    padding-top: 102px;
+
+}
+.soliution-title{
+    font-size: 16;
+    font-weight: 300;
+    color: #30B868;
+    padding-bottom: 16px;
+}
+
+.brain-heading{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    padding-bottom: 16px;
+}
+.brain-description{
+    font-size: 16px;
+    font-weight: 300;
+    color: #627382;
+    padding-bottom: 16px;
+}
+.brain-text{
+    font-size: 16px;
+    font-weight: 200;
+    color: #001931;
+    padding-bottom: 16px;
+}
+/* brain section end */
+
+/* think section start */
+#think{
+    width: 1360px;
+    height: 384px;
+    background-color: #F7F6F2;
+    margin: 0 auto;
+    border-radius: 12PX;
+}
+
+.think-content{
+    text-align: center;
+}
+.think-heading{
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.think-desctipiton{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    padding-bottom: 24px;
+}
+.think-btn{
+    width: 190px;
+    height: 52px;
+    border-radius: 5px;
+    background-color: #30B868;
+    color: white;
+    border: none;
+    margin-bottom: 36px;
+}
+/* think section end */
+
+/* footer section start */
+footer{
+    max-width: 1600px;
+    height: 300px;
+    background-color:#001931 ;
+    
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   padding: 120px;
+   width: 1360px;
+   gap: 1100px;
+   
+}
+.social{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    padding-bottom: 10px;
+
+}
+.color{
+    color: white;
+}
+
+.footer-divider {
+ border-bottom: 1px solid #627382;
+ background: transparent;
+    
+}
+#divider {
+ width: 1360px;
+ margin: 0 auto;
+ 
+}
+.footer-text{
+    text-align: center;
+    padding: 30px;
+}
+

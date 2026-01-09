@@ -6,8 +6,23 @@
     <title>Assignment 01</title>
     <!-- Css link -->
     <link rel="stylesheet" href="./style/style.css" />
+    <!-- fon-awesome cnd link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
+  <body class="iner-font">
     <header>
       <nav id="nabber">
         <div class="logo">
@@ -42,7 +57,9 @@
             </p>
           </div>
           <div class="bannar-btn">
-            <button class="btn1">Start Building Your Vault</button>
+            <button class="btn1">
+              Start Building Your Vault <i class="fa-solid fa-right-long"></i>
+            </button>
             <button class="btn2">See How It Works</button>
           </div>
         </div>
@@ -59,29 +76,101 @@
           </p>
         </div>
         <div class="notes-info">
-            <div class="info-card">
-                <img src="./assets/Vector.png" alt="">
-                <h3 class="notes-heading">Scattered notes</h3>
-                <p class="notes-desctiption">Your ideas live in 10 different apps, none of them connected.</p>
-            </div>
-            <div class="info-card">
-                <img src="./assets/Bookmarks.png" alt="">
-                <h3 class="notes-heading">Bookmark overload</h3>
-                <p class="notes-desctiption">Hundreds of saved links you'll never revisit or remember.</p>
-            </div>
-            <div class="info-card">
-                <img src="./assets/Brain.png" alt="">
-                <h3 class="notes-heading">No idea connections</h3>
-                <p class="notes-desctiption">Insights stay isolated, never building into bigger understanding.</p>
-            </div>
-            <div class="info-card">
-                <img src="./assets/Info.png" alt="">
-                <h3 class="notes-heading">Forgetting whatyou learned</h3>
-                <p class="notes-desctiption">Knowledge fades because there's no system to retain it.</p>
-            </div>
+          <div class="info-card">
+            <img src="./assets/Vector.png" alt="" />
+            <h3 class="notes-heading">Scattered notes</h3>
+            <p class="notes-desctiption">
+              Your ideas live in 10 different apps, none of them connected.
+            </p>
+          </div>
+          <div class="info-card">
+            <img src="./assets/Bookmarks.png" alt="" />
+            <h3 class="notes-heading">Bookmark overload</h3>
+            <p class="notes-desctiption">
+              Hundreds of saved links you'll never revisit or remember.
+            </p>
+          </div>
+          <div class="info-card">
+            <img src="./assets/Brain.png" alt="" />
+            <h3 class="notes-heading">No idea connections</h3>
+            <p class="notes-desctiption">
+              Insights stay isolated, never building into bigger understanding.
+            </p>
+          </div>
+          <div class="info-card">
+            <img src="./assets/Info.png" alt="" />
+            <h3 class="notes-heading">Forgetting whatyou learned</h3>
+            <p class="notes-desctiption">
+              Knowledge fades because there's no system to retain it.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Brain section -->
+      <section id="brain">
+        <div class="brain-logo">
+          <img src="./assets/knowledge.png" alt="" />
+        </div>
+        <div class="brain-info">
+          <p class="soliution-title">The Solution</p>
+          <h2 class="brain-heading">
+            Your second brain,<br />structured by design.
+          </h2>
+          <p class="brain-description">
+            Personal Knowledge Vault isn't another note-taking app. z It's a
+            thinking environment where every note, link, and summary becomes
+            part of an interconnected web of understanding.
+          </p>
+          <h6 class="brain-text">
+            Capture ideas with structure built-in from day one
+          </h6>
+          <h6 class="brain-text">
+            Connect related concepts automatically as you write
+          </h6>
+          <h6 class="brain-text">
+            Build lasting knowledge through reflection prompts
+          </h6>
+          <h6 class="brain-text">
+            Find anything instantly with semantic search
+          </h6>
+        </div>
+      </section>
+
+      <!-- think section -->
+      <section id="think">
+        <div class="think-content">
+          <h2 class="think-heading">Ready to think more clearly?</h2>
+          <p class="think-desctipiton">
+            Join thousands of learners who are building their personal knowledge
+            vaults. <br />
+            Start free, no credit card required.
+          </p>
+          <button class="think-btn">
+            Get Early Access <i class="fa-solid fa-right-long"></i>
+          </button>
+          <p>Free during early access • No credit card needed</p>
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="footer-container">
+        <div class="logo">
+          <img src="./assets/logo-footer.png" alt="" />
+        </div>
+        <div>
+          <h4 class="social">Social Links</h4>
+          <i class="color fa-brands fa-x-twitter"></i>
+          <i class="color fa-brands fa-linkedin"></i>
+          <i class="color fa-brands fa-facebook"></i>
+        </div>
+      </div>
+      <div id="divider">
+        <div class="footer-divider"></div>
+        <p class="footer-text">
+          © 2026 Personal Knowledge Vault. All rights reserved.
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
